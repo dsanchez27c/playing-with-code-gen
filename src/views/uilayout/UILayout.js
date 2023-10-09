@@ -5,7 +5,7 @@ import { Footer } from './../../components/layout/footer/Footer';
 
 const UILayout = () => {
   return (
-    <main>
+    <main className="bg-[#2f3337]">
       <Header />
       <Outlet />
       <Footer />
