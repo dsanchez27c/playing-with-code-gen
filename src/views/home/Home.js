@@ -4,7 +4,7 @@ import { AnimeList } from '../../components/animeList/AnimeList';
 
 const Home = () => {
   return (
-    <div className="flex">
+    <div className="flex pt-16">
       <MostPopular />
       <AnimeList />
     </div>
