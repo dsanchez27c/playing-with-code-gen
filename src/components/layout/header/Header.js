@@ -22,7 +22,7 @@ export const Header = () => {
   const darkmode = true;
 
   return (
-    <header className="px-3 py-2 fixed w-full">
+    <header className="px-3 py-2 fixed w-full z-10">
       <div className="flex justify-between items-center">
         <div className="flex">
           <div>

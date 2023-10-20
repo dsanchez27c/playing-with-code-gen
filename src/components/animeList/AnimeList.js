@@ -28,7 +28,7 @@ export const AnimeList = () => {
     <main className="w-full px-5 py-4">
       <article>
         <h1 className="text-3xl font-bold underline mb-4">Esto es el Home.</h1>
-        <div className="grid grid-cols-4 grid-rows-4 gap-4">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-5">
           {animes?.map((anime) => {
             const { mal_id } = anime;
             return <AnimeCard key={mal_id} anime={anime} />;
